@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home">
+    </item>
+
+    <item
+        android:id="@+id/category_menu"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Category">
+    </item>
+
+    <item
+        android:id="@+id/plave_holder"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/dark"
+        android:icon="@drawable/ic_baseline_dark_mode_24"
+        android:title="dark">
+    </item>
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Account">
+    </item>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet_create"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <TextView
+            android:id="@+id/create_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Food"
+            android:layout_marginBottom="10dp"
+            android:textSize="17dp"/>
+        <TextView
+            android:id="@+id/create_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Category"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</LinearLayout>
